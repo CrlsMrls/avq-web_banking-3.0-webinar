@@ -23,6 +23,6 @@ export class DashboardComponent {
   }
 
   onShowAllPayments($event: PaymentState[]) {
-    console.log('show all payments');
+    this.router.navigate(['payments']);
   }
 }

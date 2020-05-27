@@ -2,6 +2,10 @@
     <h1 class="avq-title-2 avq-text-primary">SmartBank</h1>
 </header>
 <nav class="mat-app-background">
+    <mat-nav-list>
+        <a mat-list-item routerLink="/dashboard" routerLinkActive="active">{{'avq-web-banking-workshop.menu.dashboard' | translate}}</a>
+        <a mat-list-item routerLink="/payments" routerLinkActive="active">{{'avq-web-banking-workshop.menu.payments' | translate}}</a>
+    </mat-nav-list>
 </nav>
 <main class="mat-app-background avq-padding-4">
     <router-outlet></router-outlet>
