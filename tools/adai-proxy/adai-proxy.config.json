@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://c0d00097.sys.net:2020",
+  "port": 3000,
+  "loginData": {
+    "identity": "190101",
+    "businessUnit": "9002",
+    "level": "3",
+    "issuer": "MedusaIDP",
+    "role": "liferay$role_ebanking_user",
+    "adminIdentity": ""
+  }
+}

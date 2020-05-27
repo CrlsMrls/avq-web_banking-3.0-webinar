@@ -1,0 +1,431 @@
+{
+  "_type": "Result",
+  "format": "normalized",
+  "payload": {
+    "_type": "PaymentListFormPTO",
+    "_shape": "standard",
+    "debitMoneyAccounts": [
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189877002,
+        "iban": "CH9188880100101062002",
+        "name": "pos_LEF.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010106.2002",
+        "balance": 7710905.51,
+        "currencyId": 2549002,
+        "businessPartnerId": 189873002,
+        "businessPartner": "Lehman Family",
+        "portfolioId": 189874002,
+        "assetId": 433154002,
+        "availableAmount": 7709588.51,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189867002,
+        "iban": "CH2888880100100922001",
+        "name": "pos_LEA.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010092.2001",
+        "balance": -5600.4,
+        "currencyId": 3942002,
+        "businessPartnerId": 189864002,
+        "businessPartner": "Anna Lehman",
+        "portfolioId": 189865002,
+        "assetId": 433163002,
+        "availableAmount": 0.0,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189869002,
+        "iban": "CH9888880100100922002",
+        "name": "pos_LEA.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010092.2002",
+        "balance": 1671555.61,
+        "currencyId": 2549002,
+        "businessPartnerId": 189864002,
+        "businessPartner": "Anna Lehman",
+        "portfolioId": 189865002,
+        "assetId": 433154002,
+        "availableAmount": 1671445.81,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189853002,
+        "iban": "CH0588880100100842002",
+        "name": "pos_LET.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2002",
+        "balance": 4190889.72,
+        "currencyId": 2549002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433154002,
+        "availableAmount": 4189402.92,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189875002,
+        "iban": "CH2188880100101062001",
+        "name": "pos_LEF.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010106.2001",
+        "balance": 1189048.65,
+        "currencyId": 3942002,
+        "businessPartnerId": 189873002,
+        "businessPartner": "Lehman Family",
+        "portfolioId": 189874002,
+        "assetId": 433163002,
+        "availableAmount": 1189122.47,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 256706002,
+        "iban": "CH3188880000134560000",
+        "name": "3. Pillar Account",
+        "isUserDefinedName": false,
+        "accountNumber": "00013456.0000",
+        "balance": 2100.0,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 302154002,
+        "availableAmount": 2104.49,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189851002,
+        "iban": "CH3288880100100842001",
+        "name": "pos_LET.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2001",
+        "balance": 9528867.81,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433163002,
+        "availableAmount": 9488573.39,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189856002,
+        "iban": "CH4888880100100842004",
+        "name": "pos_LET.02 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2004",
+        "balance": 1097441.48,
+        "currencyId": 2554002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189850002,
+        "assetId": 433166002,
+        "availableAmount": 1095832.2,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189854002,
+        "iban": "CH7588880100100842003",
+        "name": "pos_LET.02 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2003",
+        "balance": 92714.52,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189850002,
+        "assetId": 433163002,
+        "availableAmount": 92807.69,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 256805002,
+        "iban": "CH0988880000145670000",
+        "name": "Senior deposit account",
+        "isUserDefinedName": false,
+        "accountNumber": "00014567.0000",
+        "balance": 12000.0,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 20201002,
+        "availableAmount": 13097.33,
+        "moneyAccountOrigin": "INTERNAL"
+      }
+    ],
+    "portfolios": [
+      {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "id": 189850002,
+        "name": "Thomas Lehman 02",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189848002,
+        "businessPartnerName": "Thomas Lehman",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13",
+        "referenceCurrency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "id": 189874002,
+        "name": "Lehman Family 01",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189873002,
+        "businessPartnerName": "Lehman Family",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13",
+        "referenceCurrency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "id": 189849002,
+        "name": "Thomas Lehman 01",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189848002,
+        "businessPartnerName": "Thomas Lehman",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13",
+        "referenceCurrency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "id": 189865002,
+        "name": "Anna Lehman 01",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189864002,
+        "businessPartnerName": "Anna Lehman",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13",
+        "referenceCurrency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      }
+    ],
+    "paymentStates": [
+      {
+        "id": "TO_BE_APPROVED",
+        "label": "To approve"
+      },
+      {
+        "id": "APPROVED",
+        "label": "Approved"
+      },
+      {
+        "id": "PARTIAL_APPROVED",
+        "label": "Partially approved"
+      },
+      {
+        "id": "PROCESSED",
+        "label": "Processed"
+      },
+      {
+        "id": "DELETED",
+        "label": "Deleted"
+      },
+      {
+        "id": "DELETION_PARTIAL_APPROVED",
+        "label": "Deletion partially approved"
+      },
+      {
+        "id": "DELETION_TO_BE_APPROVED",
+        "label": "Deletion to be approved"
+      },
+      {
+        "id": "DD_REJECTION_PARTIAL_APPROVED",
+        "label": "Rejection partially approved"
+      },
+      {
+        "id": "DD_REJECTION_TO_BE_APPROVED",
+        "label": "Rejection to be approved"
+      },
+      {
+        "id": "DD_REJECTED",
+        "label": "Rejected"
+      },
+      {
+        "id": "DD_REJECTION_REQUESTED",
+        "label": "Rejection requested"
+      },
+      {
+        "id": "MODIFICATION_PARTIAL_APPROVED",
+        "label": "Modification partially approved"
+      },
+      {
+        "id": "MODIFICATION_TO_BE_APPROVED",
+        "label": "Modification to be approved"
+      },
+      {
+        "id": "DELETED_ACP",
+        "label": "Revoked"
+      },
+      {
+        "id": "CANCEL",
+        "label": "Cancelled"
+      },
+      {
+        "id": "TO_SIGN",
+        "label": "To sign"
+      },
+      {
+        "id": "IN_WORK",
+        "label": "In-Work"
+      },
+      {
+        "id": "DRAFT",
+        "label": "Draft"
+      }
+    ],
+    "paymentOrderSources": [
+      {
+        "id": "SINGLE_PAYMENT",
+        "label": "Single Payment"
+      },
+      {
+        "id": "DTA_ORDER",
+        "label": "DTA Order"
+      },
+      {
+        "id": "PAIN_001_ORDER",
+        "label": "PAIN001 Order"
+      },
+      {
+        "id": "STANDING_ORDER",
+        "label": "Standing Order Execution"
+      },
+      {
+        "id": "BALANCE_MANAGER_DIRECT",
+        "label": "Balance Manager"
+      },
+      {
+        "id": "E_BILL",
+        "label": "E-Bill"
+      },
+      {
+        "id": "COLLECTIVE_PAYMENT",
+        "label": "Collective Payment"
+      },
+      {
+        "id": "PAYMENT_GROUP",
+        "label": "Payment Group"
+      },
+      {
+        "id": "DIRECT_DEBIT",
+        "label": "Direct Debit"
+      }
+    ],
+    "paymentTypes": [
+      {
+        "id": "SWISS_QR_BILL_PAYMENT",
+        "label": "QR Bill Payment"
+      },
+      {
+        "id": "SWISS_ORANGE_PAYMENT_SLIP",
+        "label": "Orange Payment Slip"
+      },
+      {
+        "id": "SWISS_RED_PAYMENT_SLIP",
+        "label": "Red Payment Slip"
+      },
+      {
+        "id": "DOMESTIC_PAYMENT",
+        "label": "Domestic Payment"
+      },
+      {
+        "id": "INTERNATIONAL_PAYMENT",
+        "label": "International Payment"
+      },
+      {
+        "id": "SEPA_PAYMENT",
+        "label": "SEPA Payment"
+      },
+      {
+        "id": "INTERNATIONAL_PAYMENT_INSTRUCTION",
+        "label": "International Payment Instruction"
+      },
+      {
+        "id": "INTERNAL_PAYMENT",
+        "label": "Account Transfer"
+      },
+      {
+        "id": "BALANCE_MANAGER_PAYMENT",
+        "label": "Balance Manager Payment"
+      }
+    ],
+    "fileUploads": [],
+    "unconfirmedActions": [
+      {
+        "id": "SHOW_PARTIALLY_APPROVED",
+        "label": "Show Partially Approved"
+      },
+      {
+        "id": "SHOW_ONLY_FULLY_APPROVED",
+        "label": "Show only fully approved"
+      }
+    ]
+  },
+  "dependencies": {
+    "CurrencyPTO": {
+      "1": {
+        "_type": "CurrencyPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "1",
+        "id": 3942002,
+        "countryId": 2089002,
+        "isoCode": "CHF",
+        "name": "Swiss Franc",
+        "tradeUnit": 0.01,
+        "decimals": 2
+      }
+    }
+  },
+  "notifications": []
+}

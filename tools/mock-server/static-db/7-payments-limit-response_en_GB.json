@@ -1,0 +1,1776 @@
+{
+  "_type": "Result",
+  "format": "normalized",
+  "payload": {
+    "_type": "PaymentListPTO",
+    "_shape": "standard",
+    "payments": [
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3332003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 533.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3080003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 631.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_BE_APPROVED",
+          "label": "To be approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "APPROVE",
+            "label": "Approve"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3076003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 114.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "PROCESSED",
+          "label": "Processed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          },
+          {
+            "id": "EXTERNAL_ADVICE",
+            "label": "External advice"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3074003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 13.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": true,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In progress"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2679003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 48.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "CANCEL",
+          "label": "Cancelled"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2677003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 158.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DELETED",
+          "label": "Deleted"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 613007,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 293.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_SIGN",
+          "label": "To be signed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SIGN",
+            "label": "Sign"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 617007,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 363.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 619007,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 720.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_BE_APPROVED",
+          "label": "To be approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "APPROVE",
+            "label": "Approve"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 621007,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 963.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "PROCESSED",
+          "label": "Processed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          },
+          {
+            "id": "EXTERNAL_ADVICE",
+            "label": "External advice"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 623007,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 279.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": true,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In progress"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 625007,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 232.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "CANCEL",
+          "label": "Cancelled"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 627007,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 833.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DELETED",
+          "label": "Deleted"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 629007,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 988.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_SIGN",
+          "label": "To be signed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SIGN",
+            "label": "Sign"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3446003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 144.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3445003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 811.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_BE_APPROVED",
+          "label": "To be approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "APPROVE",
+            "label": "Approve"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3444003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 348.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "PROCESSED",
+          "label": "Processed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          },
+          {
+            "id": "EXTERNAL_ADVICE",
+            "label": "External advice"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3443003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 261.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": true,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In progress"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3442003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 986.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "CANCEL",
+          "label": "Cancelled"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3341003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange payment slip"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange payment slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "EKZ ZÜRICH",
+        "isIban": false,
+        "pcAccount": "01-50746-7",
+        "amount": 7.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "000001453446010040050880082",
+        "inWork": false,
+        "referenceNumber": "000001453446010040050880082",
+        "paymentReason": "reason ",
+        "executionDate": "2020-04-07",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DELETED",
+          "label": "Deleted"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-04-07",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      }
+    ],
+    "totalAmount": {
+      "_type": "TotalAmountPTO",
+      "_shape": "standard",
+      "amount": 37289.0,
+      "numberOfRecords": 81,
+      "currency": {
+        "_type": "CurrencyPTO",
+        "_shape": "reference",
+        "_dependencyId": "1",
+        "jsonEntityId": "1"
+      }
+    },
+    "totalAmountPerCurrency": [
+      {
+        "_type": "TotalAmountPTO",
+        "_shape": "standard",
+        "amount": 37289.0,
+        "numberOfRecords": 81,
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      }
+    ],
+    "referenceCurrency": {
+      "_type": "CurrencyPTO",
+      "_shape": "reference",
+      "_dependencyId": "1",
+      "jsonEntityId": "1"
+    }
+  },
+  "dependencies": {
+    "CurrencyPTO": {
+      "1": {
+        "_type": "CurrencyPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "1",
+        "id": 3942002,
+        "countryId": 2089002,
+        "isoCode": "CHF",
+        "name": "Swiss Franc",
+        "tradeUnit": 0.01,
+        "decimals": 2
+      }
+    },
+    "MoneyAccountPTO": {
+      "1": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "1",
+        "id": 189851002,
+        "iban": "CH3288880100100842001",
+        "name": "pos_LET.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2001",
+        "balance": 9528908.03,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433163002,
+        "availableAmount": 9532210.11,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      "2": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "2",
+        "id": 189853002,
+        "iban": "CH0588880100100842002",
+        "name": "pos_LET.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2002",
+        "balance": 4190897.75,
+        "currencyId": 2549002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433154002,
+        "availableAmount": 4190897.75,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      "3": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "3",
+        "id": 189854002,
+        "iban": "CH7588880100100842003",
+        "name": "pos_LET.02 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2003",
+        "balance": 92720.12,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189850002,
+        "assetId": 433163002,
+        "availableAmount": 92813.29,
+        "moneyAccountOrigin": "INTERNAL"
+      }
+    },
+    "PortfolioPTO": {
+      "1": {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "1",
+        "id": 189849002,
+        "name": "Thomas Lehman 01",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189848002,
+        "businessPartnerName": "Thomas Lehman",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13"
+      },
+      "2": {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "2",
+        "id": 189850002,
+        "name": "Thomas Lehman 02",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189848002,
+        "businessPartnerName": "Thomas Lehman",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13"
+      }
+    }
+  },
+  "notifications": [],
+  "snapshotId": 9682106480408,
+  "hasMoreResults": true
+}

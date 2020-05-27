@@ -1,0 +1,14 @@
+# Add files here to ignore them from prettier formatting
+.vscode
+.idea
+.gradle
+build
+node_modules
+yarn.lock
+*.html
+*.json
+*.yaml
+*.yml
+*.md
+**/dist
+.yarn-local

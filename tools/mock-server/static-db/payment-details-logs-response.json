@@ -1,0 +1,60 @@
+{
+  "_type": "Result",
+  "format": "normalized",
+  "payload": {
+    "_type": "PaymentLogListPTO",
+    "_shape": "standard",
+    "paymentLogs": [
+      {
+        "_type": "PaymentLogPTO",
+        "_shape": "standard",
+        "modificationDate": "2020-03-26T11:37:13.889",
+        "contractName": "190101",
+        "paymentLogType": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "signaturePerc": 100.0,
+        "totalSignaturePerc": 100.0
+      },
+      {
+        "_type": "PaymentLogPTO",
+        "_shape": "standard",
+        "modificationDate": "2020-03-26T11:37:13.887",
+        "contractName": "190101",
+        "paymentLogType": {
+          "id": "EDIT",
+          "label": "Order edited"
+        },
+        "signaturePerc": 0.0,
+        "totalSignaturePerc": 0.0
+      },
+      {
+        "_type": "PaymentLogPTO",
+        "_shape": "standard",
+        "modificationDate": "2020-03-26T11:36:49.183",
+        "contractName": "190101",
+        "paymentLogType": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "signaturePerc": 100.0,
+        "totalSignaturePerc": 100.0
+      },
+      {
+        "_type": "PaymentLogPTO",
+        "_shape": "standard",
+        "modificationDate": "2020-03-26T11:36:49.183",
+        "contractName": "190101",
+        "paymentLogType": {
+          "id": "INIT",
+          "label": "Order created"
+        },
+        "signaturePerc": 0.0,
+        "totalSignaturePerc": 0.0
+      }
+    ]
+  },
+  "dependencies": {},
+  "notifications": []
+}
