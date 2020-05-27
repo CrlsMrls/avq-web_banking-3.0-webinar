@@ -1,0 +1,793 @@
+{
+  "_type": "Result",
+  "format": "normalized",
+  "payload": {
+    "_type": "DomesticPaymentFormPTO",
+    "_shape": "standard",
+    "jsonDependencyId": null,
+    "transactionIdentifier": "d982cb0f-1dfa-4fa3-8e65-b4af3b30ef78",
+    "debitMoneyAccounts": [
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189877002,
+        "iban": "CH9188880100101062002",
+        "name": "pos_LEF.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010106.2002",
+        "balance": 7710905.51,
+        "currencyId": 2549002,
+        "businessPartnerId": 189873002,
+        "businessPartner": "Lehman Family",
+        "portfolioId": 189874002,
+        "assetId": 433154002,
+        "availableAmount": 7710905.51,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189867002,
+        "iban": "CH2888880100100922001",
+        "name": "pos_LEA.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010092.2001",
+        "balance": -5600.4,
+        "currencyId": 3942002,
+        "businessPartnerId": 189864002,
+        "businessPartner": "Anna Lehman",
+        "portfolioId": 189865002,
+        "assetId": 433163002,
+        "availableAmount": 0.0,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189869002,
+        "iban": "CH9888880100100922002",
+        "name": "pos_LEA.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010092.2002",
+        "balance": 1671555.61,
+        "currencyId": 2549002,
+        "businessPartnerId": 189864002,
+        "businessPartner": "Anna Lehman",
+        "portfolioId": 189865002,
+        "assetId": 433154002,
+        "availableAmount": 1671555.61,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189853002,
+        "iban": "CH0588880100100842002",
+        "name": "pos_LET.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2002",
+        "balance": 4190897.75,
+        "currencyId": 2549002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433154002,
+        "availableAmount": 4190897.75,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189875002,
+        "iban": "CH2188880100101062001",
+        "name": "pos_LEF.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010106.2001",
+        "balance": 1189048.65,
+        "currencyId": 3942002,
+        "businessPartnerId": 189873002,
+        "businessPartner": "Lehman Family",
+        "portfolioId": 189874002,
+        "assetId": 433163002,
+        "availableAmount": 1189122.47,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189851002,
+        "iban": "CH3288880100100842001",
+        "name": "pos_LET.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2001",
+        "balance": 9528897.3,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433163002,
+        "availableAmount": 9532199.38,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189856002,
+        "iban": "CH4888880100100842004",
+        "name": "pos_LET.02 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2004",
+        "balance": 1097441.48,
+        "currencyId": 2554002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189850002,
+        "assetId": 433166002,
+        "availableAmount": 1097441.48,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 256404002,
+        "iban": "CH0988880000145670000",
+        "name": "Senior deposit account",
+        "isUserDefinedName": false,
+        "accountNumber": "00014567.0000",
+        "balance": 12000.0,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 20201002,
+        "availableAmount": 13097.33,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 256305002,
+        "iban": "CH3188880000134560000",
+        "name": "3. Pillar Account",
+        "isUserDefinedName": false,
+        "accountNumber": "00013456.0000",
+        "balance": 2100.0,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 302154002,
+        "availableAmount": 2104.49,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "id": 189854002,
+        "iban": "CH7588880100100842003",
+        "name": "pos_LET.02 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2003",
+        "balance": 92714.52,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189850002,
+        "assetId": 433163002,
+        "availableAmount": 92807.69,
+        "moneyAccountOrigin": "INTERNAL"
+      }
+    ],
+    "debitMoneyAccountIdsAllowingSalary": [
+      189851002,
+      189853002,
+      189854002,
+      189856002,
+      189867002,
+      189869002,
+      189875002,
+      189877002,
+      256305002,
+      256404002
+    ],
+    "defaultDebitMoneyAccountId": null,
+    "currencyIds": [
+      3942002,
+      2549002,
+      2660002,
+      2554002,
+      2578002,
+      2508002,
+      2527002,
+      2531002,
+      2540002,
+      2563002,
+      2565002,
+      2593002,
+      2595002,
+      2610002,
+      2616002,
+      2618002,
+      2630002,
+      2636002,
+      2637002,
+      2648002,
+      2674002
+    ],
+    "costCalculationCurrencyIds": [
+      2515002,
+      3942002,
+      2537002,
+      2540002,
+      2549002,
+      2554002,
+      2565002,
+      2567002,
+      2574002,
+      2616002,
+      2625002,
+      20005002,
+      2636002
+    ],
+    "adviceOptions": [
+      {
+        "id": "NO_ADVICE",
+        "label": "No advice"
+      },
+      {
+        "id": "DETAIL_ADVICE_SINGLE",
+        "label": "Detail advice single"
+      },
+      {
+        "id": "DETAIL_ADVICE_COLLECTIVE",
+        "label": "Detail advice collective"
+      },
+      {
+        "id": "COLLECTIVE_ADVICE",
+        "label": "Collective advice"
+      }
+    ],
+    "lcrInformations": [
+      {
+        "assetId": 302154002,
+        "lcrInfoText": "The debit account has a quaterly withdrawal limit of 100,000.00 CHF. If the entered amount exceeds the withdrawal limit, a fee of % of the exceeding amount will be charged. To avoid possible withdrawal fees, we recommend entering a withdrawal notice on your debit account. The withdrawal period is 90 days."
+      }
+    ],
+    "defaultAdviceOption": "NO_ADVICE",
+    "supportsPaymentTemplate": true,
+    "referenceAccountEnabled": false,
+    "linkedContractFeatures": null,
+    "configuration": {
+      "SINGLE_ORDER": {
+        "EMPTY": {
+          "transactionDate": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "transactionDate",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "amount": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "amount",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "currencyId": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "currencyId",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "debitMoneyAccountId": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "debitMoneyAccountId",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "debitReference": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "debitReference",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "salary": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "salary",
+            "fieldConfigurationMode": "OPTIONAL",
+            "include": {
+              "_type": "PaymentConfigurationFieldRestrictionPTO",
+              "_shape": "standard",
+              "currencies": [
+                {
+                  "_type": "CurrencyPTO",
+                  "_shape": "standard",
+                  "id": 3942002,
+                  "isoCode": "CHF"
+                }
+              ]
+            }
+          },
+          "adviceOption": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "adviceOption",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "beneficiary1": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiary1",
+            "fieldConfigurationMode": "MANDATORY",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard",
+              "maxLength": 35
+            }
+          },
+          "beneficiary2": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiary2",
+            "fieldConfigurationMode": "OPTIONAL",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard",
+              "maxLength": 35
+            }
+          },
+          "beneficiary3": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiary3",
+            "fieldConfigurationMode": "OPTIONAL",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard",
+              "maxLength": 35
+            }
+          },
+          "beneficiary4": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiary4",
+            "fieldConfigurationMode": "OPTIONAL",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard",
+              "maxLength": 35
+            }
+          },
+          "beneficiaryBank1": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiaryBank1",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "beneficiaryBank2": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiaryBank2",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "beneficiaryBank3": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiaryBank3",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "beneficiaryBank4": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiaryBank4",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "ntnl": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "ntnl",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "paymentReason": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "paymentReason",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "paymentExecution": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "paymentExecution",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "paymentInstruction": {
+            "_type": "PaymentConfigurationFieldGroupPTO",
+            "_shape": "standard",
+            "name": "paymentInstruction",
+            "fieldConfigurationMode": "OPTIONAL",
+            "exclude": {
+              "_type": "PaymentConfigurationFieldRestrictionPTO",
+              "_shape": "standard",
+              "currencies": [
+                {
+                  "_type": "CurrencyPTO",
+                  "_shape": "standard",
+                  "id": 3942002,
+                  "isoCode": "CHF"
+                }
+              ]
+            },
+            "fieldNames": [
+              "postitText",
+              "paymentPriority",
+              "chargeOption"
+            ]
+          },
+          "beneficiaryIbanOrAccountNo": {
+            "_type": "PaymentConfigurationFieldGroupPTO",
+            "_shape": "standard",
+            "name": "beneficiaryIbanOrAccountNo",
+            "fieldConfigurationMode": "MANDATORY",
+            "fieldNames": [
+              "beneficiaryIban",
+              "beneficiaryAccountNo"
+            ]
+          }
+        }
+      },
+      "STANDING_ORDER": {
+        "EMPTY": {
+          "standingOrderPeriodId": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "standingOrderPeriodId",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "periodStart": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "periodStart",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "endDate": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "endDate",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "maxPeriodCnt": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "maxPeriodCnt",
+            "fieldConfigurationMode": "OPTIONAL",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard"
+            }
+          },
+          "beforeHoliday": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beforeHoliday",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "amount": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "amount",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "currencyId": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "currencyId",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "debitMoneyAccountId": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "debitMoneyAccountId",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "debitReference": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "debitReference",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "salary": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "salary",
+            "fieldConfigurationMode": "OPTIONAL",
+            "include": {
+              "_type": "PaymentConfigurationFieldRestrictionPTO",
+              "_shape": "standard",
+              "currencies": [
+                {
+                  "_type": "CurrencyPTO",
+                  "_shape": "standard",
+                  "id": 3942002,
+                  "isoCode": "CHF"
+                }
+              ]
+            }
+          },
+          "adviceOption": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "adviceOption",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "beneficiary1": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiary1",
+            "fieldConfigurationMode": "MANDATORY",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard",
+              "maxLength": 35
+            }
+          },
+          "beneficiary2": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiary2",
+            "fieldConfigurationMode": "OPTIONAL",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard",
+              "maxLength": 35
+            }
+          },
+          "beneficiary3": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiary3",
+            "fieldConfigurationMode": "OPTIONAL",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard",
+              "maxLength": 35
+            }
+          },
+          "beneficiary4": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiary4",
+            "fieldConfigurationMode": "OPTIONAL",
+            "lengthRestriction": {
+              "_type": "PaymentConfigurationLengthValidatorFieldPTO",
+              "_shape": "standard",
+              "maxLength": 35
+            }
+          },
+          "beneficiaryBank1": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiaryBank1",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "beneficiaryBank2": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiaryBank2",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "beneficiaryBank3": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiaryBank3",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "beneficiaryBank4": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "beneficiaryBank4",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "ntnl": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "ntnl",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "paymentReason": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "paymentReason",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "paymentExecution": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "paymentExecution",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "endCondition": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "endCondition",
+            "fieldConfigurationMode": "MANDATORY"
+          },
+          "endOfMonth": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "endOfMonth",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "deactivated": {
+            "_type": "PaymentConfigurationFieldPTO",
+            "_shape": "standard",
+            "name": "deactivated",
+            "fieldConfigurationMode": "OPTIONAL"
+          },
+          "paymentInstruction": {
+            "_type": "PaymentConfigurationFieldGroupPTO",
+            "_shape": "standard",
+            "name": "paymentInstruction",
+            "fieldConfigurationMode": "OPTIONAL",
+            "exclude": {
+              "_type": "PaymentConfigurationFieldRestrictionPTO",
+              "_shape": "standard",
+              "currencies": [
+                {
+                  "_type": "CurrencyPTO",
+                  "_shape": "standard",
+                  "id": 3942002,
+                  "isoCode": "CHF"
+                }
+              ]
+            },
+            "fieldNames": [
+              "postitText",
+              "paymentPriority",
+              "chargeOption"
+            ]
+          },
+          "beneficiaryIbanOrAccountNo": {
+            "_type": "PaymentConfigurationFieldGroupPTO",
+            "_shape": "standard",
+            "name": "beneficiaryIbanOrAccountNo",
+            "fieldConfigurationMode": "MANDATORY",
+            "fieldNames": [
+              "beneficiaryIban",
+              "beneficiaryAccountNo"
+            ]
+          }
+        }
+      }
+    },
+    "chargeOptions": [
+      {
+        "id": "SHARED",
+        "label": "Share charges"
+      },
+      {
+        "id": "APPLICANT",
+        "label": "Sender to pay charges"
+      },
+      {
+        "id": "BENEFICIARY",
+        "label": "Beneficiary to pay charges"
+      }
+    ],
+    "defaultChargeOption": "SHARED",
+    "priorities": [
+      {
+        "id": "NORMAL",
+        "label": "Normal"
+      },
+      {
+        "id": "URGENT",
+        "label": "Urgent"
+      }
+    ],
+    "defaultPriority": "NORMAL",
+    "singleOrder": {
+      "_type": "SingleOrderSpecPTO",
+      "_shape": "standard",
+      "defaultExecutionDate": "2020-03-27",
+      "defaultLastExecutionDate": "2021-03-21",
+      "defaultUrgentExecutionDate": "2020-03-27",
+      "minUrgentExecutionDate": "2020-03-27",
+      "minExecutionDate": "2020-03-27"
+    },
+    "standingOrder": {
+      "_type": "StandingOrderSpecPTO",
+      "_shape": "standard",
+      "endConditions": [
+        {
+          "id": "UNTIL_REVOCATION",
+          "label": "Until revocation"
+        },
+        {
+          "id": "UNTIL_NUMBER_OF_EXECUTIONS",
+          "label": "Until number of executions"
+        },
+        {
+          "id": "UNTIL_END_DATE",
+          "label": "Until end date"
+        }
+      ],
+      "holidayRules": [
+        {
+          "id": "BEFORE_HOLIDAY",
+          "label": "execute before"
+        },
+        {
+          "id": "AFTER_HOLIDAY",
+          "label": "execute after"
+        }
+      ],
+      "periods": [
+        {
+          "_type": "StandingOrderPeriodPTO",
+          "_shape": "standard",
+          "id": 2002,
+          "label": "weekly",
+          "supportEndOfMonth": false,
+          "default": false
+        },
+        {
+          "_type": "StandingOrderPeriodPTO",
+          "_shape": "standard",
+          "id": 3002,
+          "label": "bi-weekly",
+          "supportEndOfMonth": false,
+          "default": false
+        },
+        {
+          "_type": "StandingOrderPeriodPTO",
+          "_shape": "standard",
+          "id": 4002,
+          "label": "monthly",
+          "supportEndOfMonth": true,
+          "default": true
+        },
+        {
+          "_type": "StandingOrderPeriodPTO",
+          "_shape": "standard",
+          "id": 5002,
+          "label": "bi-monthly",
+          "supportEndOfMonth": true,
+          "default": false
+        },
+        {
+          "_type": "StandingOrderPeriodPTO",
+          "_shape": "standard",
+          "id": 6002,
+          "label": "quarterly",
+          "supportEndOfMonth": true,
+          "default": false
+        },
+        {
+          "_type": "StandingOrderPeriodPTO",
+          "_shape": "standard",
+          "id": 7002,
+          "label": "semiannually",
+          "supportEndOfMonth": true,
+          "default": false
+        },
+        {
+          "_type": "StandingOrderPeriodPTO",
+          "_shape": "standard",
+          "id": 8002,
+          "label": "yearly",
+          "supportEndOfMonth": true,
+          "default": false
+        }
+      ],
+      "defaultFirstExecutionDate": "2020-03-27",
+      "defaultLastExecutionDate": "2022-03-16",
+      "defaultRecurrenceEndDate": "2020-03-28",
+      "defaultLastRecurrenceEndDate": "2031-03-09",
+      "defaultPeriodId": 4002,
+      "defaultHolidayRule": "AFTER_HOLIDAY",
+      "defaultEndCondition": "UNTIL_REVOCATION"
+    }
+  },
+  "dependencies": {},
+  "notifications": []
+}

@@ -1,0 +1,108 @@
+{
+  "_type": "Result",
+  "format": "normalized",
+  "payload": {
+    "_type": "SwissQrBillPaymentPTO",
+    "_shape": "standard",
+    "id": {
+      "orderId": 2986003,
+      "orderVersionId": 1,
+      "standingOrder": false,
+      "paymentType": {
+        "id": "SWISS_QR_BILL_PAYMENT",
+        "label": "QR Bill Payment"
+      }
+    },
+    "debitMoneyAccountId": 189851002,
+    "amount": 8.38,
+    "currencyId": 3942002,
+    "paymentExecution": "SINGLE_ORDER",
+    "executionDate": "2020-07-01",
+    "state": {
+      "id": "APPROVED",
+      "label": "Approved"
+    },
+    "debitReference": "new debit reference code",
+    "advice": "NO_ADVICE",
+    "actions": [
+      {
+        "id": "VIEW",
+        "label": "View"
+      },
+      {
+        "id": "UPDATE",
+        "label": "Update"
+      },
+      {
+        "id": "SAVE_AS_TEMPLATE",
+        "label": "Save as template"
+      },
+      {
+        "id": "COPY",
+        "label": "Copy"
+      },
+      {
+        "id": "DELETE",
+        "label": "Delete"
+      },
+      {
+        "id": "EXPORT",
+        "label": "Export"
+      }
+    ],
+    "paymentType": {
+      "id": "SWISS_QR_BILL_PAYMENT",
+      "label": "QR Bill Payment"
+    },
+    "paynetAmountEditable": false,
+    "advices": [],
+    "beneficiaryBank1": "Credit Suisse (Schweiz) AG",
+    "beneficiaryBank2": "45 BAHNHOFSTRASSE",
+    "beneficiaryBank3": "8001 Zurich",
+    "beneficiaryBank4": "Switzerland",
+    "beneficiaryIban": "CH84 3100 0031 6612 0000 0",
+    "paymentReason": "Migros Shopping",
+    "ntnl": "31000",
+    "paymentSubType": "STRUCTURED",
+    "salary": false,
+    "referenceAccountSelected": false,
+    "beneficiaryParty": {
+      "name": "Jack Wick",
+      "city": "Zuerich",
+      "street": "Allmendstrasse",
+      "streetNumber": "140",
+      "zip": "8041",
+      "countryId": 2089002
+    },
+    "clientReference": "087101319628633725878441385",
+    "debitMoneyAccount": {
+      "_type": "MoneyAccountPTO",
+      "_shape": "reference",
+      "_dependencyId": "1",
+      "jsonEntityId": "1"
+    }
+  },
+  "dependencies": {
+    "MoneyAccountPTO": {
+      "1": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "1",
+        "id": 189851002,
+        "iban": "CH3288880100100842001",
+        "name": "pos_LET.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2001",
+        "balance": 9528897.3,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433163002,
+        "availableAmount": 9532199.38,
+        "moneyAccountOrigin": "INTERNAL"
+      }
+    }
+  },
+  "notifications": []
+}

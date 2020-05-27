@@ -1,0 +1,5541 @@
+{
+  "_type": "Result",
+  "format": "normalized",
+  "payload": {
+    "_type": "PaymentListPTO",
+    "_shape": "standard",
+    "payments": [
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3332003,
+          "orderVersionId": 2,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000436122,
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Catharine Bettaney",
+        "beneficiaryAccount": "CH8431000031661200000",
+        "isIban": true,
+        "amount": 6.96,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "907474713260893687486037480",
+        "debitReference": "YoKWMBuZstkkeFxKIXTc",
+        "inWork": false,
+        "referenceNumber": "907474713260893687486037480",
+        "paymentReason": "Music",
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH84 3100 0031 6612 0000 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3080003,
+          "orderVersionId": 2,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000433785,
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Far Ranby",
+        "beneficiaryAccount": "CH8431000031661200000",
+        "isIban": true,
+        "amount": 1.83,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "987946672828818268796832864",
+        "debitReference": "ZsHAUGeBGohitqVzhROB",
+        "inWork": false,
+        "referenceNumber": "987946672828818268796832864",
+        "paymentReason": "Garden",
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH84 3100 0031 6612 0000 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3076003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Bat Riccetti",
+        "beneficiaryAccount": "CH5604835012345678009",
+        "isIban": true,
+        "amount": 5.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "inWork": false,
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DRAFT",
+          "label": "Draft"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "PAYMENT_GROUP",
+          "label": "Payment Group"
+        },
+        "paymentGroupId": 3042003,
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH56 0483 5012 3456 7800 9",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3074003,
+          "orderVersionId": 5,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000426176,
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Fanya McCrie",
+        "beneficiaryAccount": "CH8431000031661200000",
+        "isIban": true,
+        "amount": 6.27,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "626778218273710012515737643",
+        "debitReference": "bRkIGXaWlNIysfWJqBaD",
+        "inWork": false,
+        "referenceNumber": "626778218273710012515737643",
+        "paymentReason": "Outdoors",
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH84 3100 0031 6612 0000 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2679003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000405826,
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Sutherlan Farny",
+        "beneficiaryAccount": "CH8431000031661200000",
+        "isIban": true,
+        "amount": 9.95,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "905069333685841163802479236",
+        "debitReference": "zSApGnjKSQXaSypHYcbp",
+        "inWork": false,
+        "referenceNumber": "905069333685841163802479236",
+        "paymentReason": "Games",
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DELETED",
+          "label": "Deleted"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH84 3100 0031 6612 0000 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2677003,
+          "orderVersionId": 2,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000405650,
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Ingamar Kumar",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 7.57,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "RF14000000000000000000693",
+        "debitReference": "cLsFQqTQlangxMiWkQoj",
+        "inWork": false,
+        "referenceNumber": "RF14000000000000000000693",
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2676003,
+          "orderVersionId": 2,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000405664,
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Brade Welfare",
+        "beneficiaryAccount": "CH8431000031661200000",
+        "isIban": true,
+        "amount": 7.93,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "762523188224559630059313588",
+        "debitReference": "szsUbHNObUzcvoaQAKhb",
+        "inWork": false,
+        "referenceNumber": "762523188224559630059313588",
+        "paymentReason": "Clothing",
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH84 3100 0031 6612 0000 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2675003,
+          "orderVersionId": 2,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000405633,
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Dorita Dei",
+        "beneficiaryAccount": "CH8431000031661200000",
+        "isIban": true,
+        "amount": 7.63,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "731483457622010707059101743",
+        "debitReference": "pOoCrCyrHYzqwRmKubkn",
+        "inWork": false,
+        "referenceNumber": "731483457622010707059101743",
+        "paymentReason": "Industrial",
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH84 3100 0031 6612 0000 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2566003,
+          "orderVersionId": 2,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_QR_BILL_PAYMENT",
+            "label": "QR Bill Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000404440,
+        "paymentType": {
+          "id": "SWISS_QR_BILL_PAYMENT",
+          "label": "QR Bill Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Hashim Joannic",
+        "beneficiaryAccount": "CH9004835031661200000",
+        "isIban": true,
+        "amount": 3.85,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "RF61000000000000000000332",
+        "inWork": false,
+        "referenceNumber": "RF61000000000000000000332",
+        "executionDate": "2020-07-01",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH90 0483 5031 6612 0000 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3079003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Janaye Lathaye",
+        "beneficiaryAccount": "CH5604835012345678009",
+        "isIban": true,
+        "amount": 55.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "inWork": false,
+        "executionDate": "2020-03-31",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DRAFT",
+          "label": "Draft"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "PAYMENT_GROUP",
+          "label": "Payment Group"
+        },
+        "paymentGroupId": 3042003,
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH56 0483 5012 3456 7800 9",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3072003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SEPA_PAYMENT",
+            "label": "SEPA Payment"
+          }
+        },
+        "paymentType": {
+          "id": "SEPA_PAYMENT",
+          "label": "SEPA Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Ricky Kevis",
+        "beneficiaryAccount": "DE44500700100092685700",
+        "isIban": true,
+        "amount": 5.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "inWork": false,
+        "executionDate": "2020-03-31",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DRAFT",
+          "label": "Draft"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "PAYMENT_GROUP",
+          "label": "Payment Group"
+        },
+        "paymentGroupId": 3042003,
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "DE44 5007 0010 0092 6857 00",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2570003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000404571,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Gerry Grasha",
+        "beneficiaryAccount": "CH2888880100100922001",
+        "isIban": true,
+        "amount": 4.63,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "yqQjOfxtwl",
+        "debitReference": "qwGIWmUkVYcQXxzBoTel",
+        "inWork": false,
+        "paymentReason": "Baby",
+        "executionDate": "2020-03-27",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH28 8888 0100 1009 2200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "4",
+          "jsonEntityId": "4"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3450003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000466643,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Xerxes Shernock",
+        "beneficiaryAccount": "CH2888880100100922001",
+        "isIban": true,
+        "amount": 2.85,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "QEQNrRBgIJ",
+        "debitReference": "qTQTLOoBlBBzoHrVKVwr",
+        "inWork": false,
+        "paymentReason": "Baby",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH28 8888 0100 1009 2200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "4",
+          "jsonEntityId": "4"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3447003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000462992,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Zebulon Sabati",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 5.22,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "OEYcyQfgsY",
+        "debitReference": "RrSpiupjTnqzgpqYHyuf",
+        "inWork": false,
+        "paymentReason": "Beauty",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3446003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000462323,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Jeremias Waldram",
+        "isIban": false,
+        "pcAccount": "010004325",
+        "amount": 7.98,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "308309401827725667442307243",
+        "debitReference": "OSaVNdCKkvxdmmFIddyE",
+        "inWork": false,
+        "referenceNumber": "308309401827725667442307243",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000432-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3445003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000460626,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Gasper Peeter",
+        "beneficiaryAccount": "CH2888880100100922001",
+        "isIban": true,
+        "amount": 8.57,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "IDaBwiqvZj",
+        "debitReference": "DljtuCpLAdojdYzLylde",
+        "inWork": false,
+        "paymentReason": "Tools",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH28 8888 0100 1009 2200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "4",
+          "jsonEntityId": "4"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3444003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000455561,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Aurilia Vanderplas",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 7.48,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "RPZNKtxMtK",
+        "debitReference": "fkEwyQRYfEdRcIGlsdBi",
+        "inWork": false,
+        "paymentReason": "Tools",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3443003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000455572,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Edith MacCorley",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 3.13,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "eAvObooogv",
+        "debitReference": "FTbuJOuMHhRSbpjlGcGk",
+        "inWork": false,
+        "paymentReason": "Baby",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3442003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000452564,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Rosa Chateau",
+        "beneficiaryAccount": "CH2888880100100922001",
+        "isIban": true,
+        "amount": 8.72,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "AIUQbMkesQ",
+        "debitReference": "BoOritQgmeVbmqOlQvII",
+        "inWork": false,
+        "paymentReason": "Industrial",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH28 8888 0100 1009 2200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "4",
+          "jsonEntityId": "4"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3332003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_RED_PAYMENT_SLIP",
+            "label": "Red Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000447840,
+        "paymentType": {
+          "id": "SWISS_RED_PAYMENT_SLIP",
+          "label": "Red Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Sandi Dillinton",
+        "isIban": false,
+        "pcAccount": "910918850",
+        "amount": 9.78,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "ttKEZrgyma",
+        "debitReference": "RrcmlPAiJyFYjdKkxIDZ",
+        "inWork": true,
+        "paymentReason": "Sports",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In-Work"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "91-091885-0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3340003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000445905,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Olin Guppy",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 5.77,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "RoFnWzOfmL",
+        "debitReference": "yICELLflcG",
+        "inWork": false,
+        "paymentReason": "Shoes",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_BE_APPROVED",
+          "label": "To approve"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "APPROVE",
+            "label": "Approve"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3339003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_RED_PAYMENT_SLIP",
+            "label": "Red Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000445893,
+        "paymentType": {
+          "id": "SWISS_RED_PAYMENT_SLIP",
+          "label": "Red Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Jenine Spink",
+        "isIban": false,
+        "pcAccount": "500561670",
+        "amount": 9.11,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "BHzXcmEWmx",
+        "debitReference": "mkAFlEmCFaDsnUWJfjzc",
+        "inWork": false,
+        "paymentReason": "Shoes",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "50-056167-0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2986003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000444453,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Marjy Gritland",
+        "isIban": false,
+        "pcAccount": "010004325",
+        "amount": 8.24,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "148978460365036288081958442",
+        "debitReference": "AgmDwbdvdxBVnQzJVVDR",
+        "inWork": false,
+        "referenceNumber": "148978460365036288081958442",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_BE_APPROVED",
+          "label": "To approve"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "APPROVE",
+            "label": "Approve"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000432-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3337003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_RED_PAYMENT_SLIP",
+            "label": "Red Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000444431,
+        "paymentType": {
+          "id": "SWISS_RED_PAYMENT_SLIP",
+          "label": "Red Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Vic McMonnies",
+        "beneficiaryAccount": "CH5900700114800020687",
+        "isIban": true,
+        "pcAccount": "800001514",
+        "amount": 4.29,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "oMTMAVBEJa",
+        "debitReference": "wIogkyjJToiqufyANpos",
+        "inWork": false,
+        "paymentReason": "Outdoors",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH59 0070 0114 8000 2068 7",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3336003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000440975,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Trudey Pirnie",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 7.54,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "PwcCAALvGd",
+        "debitReference": "zHRYwlQoeVZjNNgpadYp",
+        "inWork": false,
+        "paymentReason": "Home",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_BE_APPROVED",
+          "label": "To approve"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "APPROVE",
+            "label": "Approve"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3335003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_RED_PAYMENT_SLIP",
+            "label": "Red Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000440950,
+        "paymentType": {
+          "id": "SWISS_RED_PAYMENT_SLIP",
+          "label": "Red Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Kim Boak",
+        "beneficiaryAccount": "CH5900700114800020687",
+        "isIban": true,
+        "amount": 6.22,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "rRuSIaZXwu",
+        "debitReference": "jPhHTYkXgpVHLztKnrUM",
+        "inWork": false,
+        "paymentReason": "Sports",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH59 0070 0114 8000 2068 7",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3334003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SEPA_PAYMENT",
+            "label": "SEPA Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000438823,
+        "paymentType": {
+          "id": "SEPA_PAYMENT",
+          "label": "SEPA Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Pip Moniker",
+        "beneficiaryAccount": "DE44500700100092685700",
+        "isIban": true,
+        "amount": 7.13,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "1584693412586",
+        "debitReference": "aNRPLKpeZRpsCSQIdpzI",
+        "inWork": false,
+        "referenceNumber": "1584693412586",
+        "paymentReason": "Music",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "DE44 5007 0010 0092 6857 00",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3081003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SEPA_PAYMENT",
+            "label": "SEPA Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000436088,
+        "paymentType": {
+          "id": "SEPA_PAYMENT",
+          "label": "SEPA Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Darrelle Livsey",
+        "beneficiaryAccount": "DE44500700100092685700",
+        "isIban": true,
+        "amount": 9.09,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "1584693330820",
+        "debitReference": "clilUJBiwhJtWdInvwsL",
+        "inWork": false,
+        "referenceNumber": "1584693330820",
+        "paymentReason": "Sports",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "DE44 5007 0010 0092 6857 00",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3078003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000428550,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Wald Yakushkin",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 1.88,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "OidApPGzma",
+        "debitReference": "sSihuwePWozAgscLabAK",
+        "inWork": false,
+        "paymentReason": "Electronics",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3077003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000427760,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Abra Linnett",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 5.75,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "NROkYNpkux",
+        "debitReference": "KqyMkyktSXjpSEgSkjty",
+        "inWork": true,
+        "paymentReason": "Industrial",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In-Work"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3075003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SEPA_PAYMENT",
+            "label": "SEPA Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000426202,
+        "paymentType": {
+          "id": "SEPA_PAYMENT",
+          "label": "SEPA Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Kaylyn Rabidge",
+        "beneficiaryAccount": "DE44500700100092685700",
+        "isIban": true,
+        "amount": 5.15,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "1584693038051",
+        "debitReference": "qyyYFSmBxMKSnDHrEHWl",
+        "inWork": false,
+        "referenceNumber": "1584693038051",
+        "paymentReason": "Sports",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "DE44 5007 0010 0092 6857 00",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3073003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000425284,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Cristen Whitwam",
+        "beneficiaryAccount": "0270-45875.M1Q",
+        "isIban": false,
+        "amount": 1.26,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "hkWpdbzKmZ",
+        "debitReference": "INnUnZkewsNQshFpzAWL",
+        "inWork": false,
+        "paymentReason": "Sports",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "0270-45875.M1Q",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3014003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "BALANCE_MANAGER_PAYMENT",
+            "label": "Balance Manager Payment"
+          }
+        },
+        "paymentExternalOrderId": 319653,
+        "paymentType": {
+          "id": "BALANCE_MANAGER_PAYMENT",
+          "label": "Balance Manager Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Velvet Sexty",
+        "beneficiaryAccount": "CH7588880100100842003",
+        "isIban": true,
+        "amount": 0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "NBlKAnRAOx",
+        "debitReference": "dhYZQRBjTuVpBrUZCglA",
+        "inWork": false,
+        "paymentReason": "Games",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "BALANCE_MANAGER_DIRECT",
+          "label": "Balance Manager"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8888 0100 1008 4200 3",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "5",
+          "jsonEntityId": "5"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3013003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "BALANCE_MANAGER_PAYMENT",
+            "label": "Balance Manager Payment"
+          }
+        },
+        "paymentExternalOrderId": 319539,
+        "paymentType": {
+          "id": "BALANCE_MANAGER_PAYMENT",
+          "label": "Balance Manager Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Jeanne Kingcote",
+        "beneficiaryAccount": "CH0588880100100842002",
+        "isIban": true,
+        "amount": 0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "JSXWojGWpt",
+        "debitReference": "HQbNlMQJrdkrsLuvCfdC",
+        "inWork": false,
+        "paymentReason": "Movies",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "BALANCE_MANAGER_DIRECT",
+          "label": "Balance Manager"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH05 8888 0100 1008 4200 2",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "5",
+          "jsonEntityId": "5"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3012003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "BALANCE_MANAGER_PAYMENT",
+            "label": "Balance Manager Payment"
+          }
+        },
+        "paymentExternalOrderId": 319434,
+        "paymentType": {
+          "id": "BALANCE_MANAGER_PAYMENT",
+          "label": "Balance Manager Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Tabbatha Badini",
+        "beneficiaryAccount": "CH7588880100100842003",
+        "isIban": true,
+        "amount": 0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "hiRdaRLstZ",
+        "debitReference": "CBXYSjsCdsXVyEOlUGTk",
+        "inWork": false,
+        "paymentReason": "Music",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "BALANCE_MANAGER_DIRECT",
+          "label": "Balance Manager"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8888 0100 1008 4200 3",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "5",
+          "jsonEntityId": "5"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2678003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000405696,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Meridel Filipov",
+        "isIban": false,
+        "pcAccount": "010004325",
+        "amount": 1.77,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "042260723377987829544681036",
+        "debitReference": "TSqKJYwZaevhVMXPqxYs",
+        "inWork": false,
+        "referenceNumber": "042260723377987829544681036",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "TO_BE_APPROVED",
+          "label": "To approve"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "APPROVE",
+            "label": "Approve"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000432-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2672003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_RED_PAYMENT_SLIP",
+            "label": "Red Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000404794,
+        "paymentType": {
+          "id": "SWISS_RED_PAYMENT_SLIP",
+          "label": "Red Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Cookie Willmott",
+        "isIban": false,
+        "pcAccount": "500561670",
+        "amount": 5.73,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "agmkfIzBrC",
+        "debitReference": "LlBSZfkzsbuKVTFvWXMe",
+        "inWork": false,
+        "paymentReason": "Home",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "50-056167-0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2569003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000404548,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Jillie Padfield",
+        "isIban": false,
+        "pcAccount": "010010518",
+        "amount": 6.15,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "711396670689190100072604907",
+        "debitReference": "LMlXifrnxSIrsVPnZFOH",
+        "inWork": false,
+        "referenceNumber": "711396670689190100072604907",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-001051-8",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2568003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNATIONAL_PAYMENT",
+            "label": "International Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000404531,
+        "paymentType": {
+          "id": "INTERNATIONAL_PAYMENT",
+          "label": "International Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Stinky Lethlay",
+        "beneficiaryAccount": "NL37ABNA0618139087",
+        "isIban": true,
+        "amount": 5.71,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "MaUcypgRfV",
+        "debitReference": "tovUQUNVBjNuoUkDgXAk",
+        "inWork": false,
+        "paymentReason": "Sports",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "NL37 ABNA 0618 1390 87",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2567003,
+          "orderVersionId": 7,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000404512,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Mick Lawland",
+        "beneficiaryAccount": "CH2888880100100922001",
+        "isIban": true,
+        "amount": 4.82,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "YfUrfJMYXB",
+        "debitReference": "mGdPCMUSTmefFxvfjpGK",
+        "inWork": false,
+        "paymentReason": "Garden",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DELETED",
+          "label": "Deleted"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH28 8888 0100 1009 2200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "4",
+          "jsonEntityId": "4"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2565003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000404415,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Korey Danilevich",
+        "isIban": false,
+        "pcAccount": "010004325",
+        "amount": 6.07,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "310433543759489337393589956",
+        "debitReference": "bGvSYgByNnzARKsNBQbQ",
+        "inWork": false,
+        "referenceNumber": "310433543759489337393589956",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000432-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2564003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000404373,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Elwin Sweed",
+        "beneficiaryAccount": "CH2888880100100922001",
+        "isIban": true,
+        "amount": 8.62,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "evBBWBthiv",
+        "debitReference": "lDAAVHdTTizifQJuKBmU",
+        "inWork": false,
+        "paymentReason": "Books",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH28 8888 0100 1009 2200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "4",
+          "jsonEntityId": "4"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2563003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNATIONAL_PAYMENT_INSTRUCTION",
+            "label": "International Payment Instruction"
+          }
+        },
+        "paymentExternalOrderId": 100000404329,
+        "paymentType": {
+          "id": "INTERNATIONAL_PAYMENT_INSTRUCTION",
+          "label": "International Payment Instruction"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Denney Danshin",
+        "beneficiaryAccount": "NL37ABNA0618139087",
+        "isIban": true,
+        "amount": 4.07,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "jceyCVFfpf",
+        "debitReference": "192558627679585409685817555",
+        "inWork": false,
+        "paymentReason": "Garden",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "NL37 ABNA 0618 1390 87",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2562003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000404296,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Amanda Sicily",
+        "isIban": false,
+        "pcAccount": "010001456",
+        "amount": 4.94,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "670018202013398525737142819",
+        "debitReference": "awIKeRtpMAzkzirQWBtG",
+        "inWork": false,
+        "referenceNumber": "670018202013398525737142819",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000145-6",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2461003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000404113,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Lea Lackie",
+        "isIban": false,
+        "pcAccount": "010004325",
+        "amount": 7.73,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "969014980355635092474184341",
+        "debitReference": "vZfutaTOtWLZdWznTgkk",
+        "inWork": false,
+        "referenceNumber": "969014980355635092474184341",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000432-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2459003,
+          "orderVersionId": 7,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000403991,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Abba Wannell",
+        "isIban": false,
+        "pcAccount": "010004325",
+        "amount": 4.91,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "553893657099842675461729206",
+        "debitReference": "kLjNVGXJtU",
+        "inWork": false,
+        "referenceNumber": "553893657099842675461729206",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DELETED",
+          "label": "Deleted"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000432-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2458003,
+          "orderVersionId": 7,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000403881,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Nicol Duckham",
+        "isIban": false,
+        "pcAccount": "010004325",
+        "amount": 4.76,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "572855968996080861456657297",
+        "debitReference": "kLjNVGXJtU",
+        "inWork": false,
+        "referenceNumber": "572855968996080861456657297",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DELETED",
+          "label": "Deleted"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000432-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2456003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000403388,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Mikkel Broggelli",
+        "isIban": false,
+        "pcAccount": "010004325",
+        "amount": 9.98,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "405603008216761949872210650",
+        "debitReference": "yMBPPCZHfSlnJqATrCyJ",
+        "inWork": false,
+        "referenceNumber": "405603008216761949872210650",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "01-000432-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2455003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000403336,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Emelen Stealy",
+        "beneficiaryAccount": "CH2888880100100922001",
+        "isIban": true,
+        "amount": 9.35,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "sDSuLGclLa",
+        "debitReference": "IsmYAJHxFqyhtWFnkllq",
+        "inWork": false,
+        "paymentReason": "Garden",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH28 8888 0100 1009 2200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "4",
+          "jsonEntityId": "4"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2454003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000402409,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Conn Caddie",
+        "beneficiaryAccount": "CH2888880100100922001",
+        "isIban": true,
+        "amount": 7.87,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "QMtJYATWOa",
+        "debitReference": "jItDtsvYNjVQmsoqCkPU",
+        "inWork": false,
+        "paymentReason": "Garden",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH28 8888 0100 1009 2200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "3",
+          "jsonEntityId": "3"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "4",
+          "jsonEntityId": "4"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3332003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SWISS_ORANGE_PAYMENT_SLIP",
+            "label": "Orange Payment Slip"
+          }
+        },
+        "paymentExternalOrderId": 100000402240,
+        "paymentType": {
+          "id": "SWISS_ORANGE_PAYMENT_SLIP",
+          "label": "Orange Payment Slip"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Benito McGoon",
+        "isIban": false,
+        "pcAccount": "030001625",
+        "amount": 3.9,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "234518944121797134264745988",
+        "debitReference": "ZYQIrTecbUlSheOdZpDb",
+        "inWork": true,
+        "referenceNumber": "234518944121797134264745988",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In-Work"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "03-000162-5",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2452003,
+          "orderVersionId": 6,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "DOMESTIC_PAYMENT",
+            "label": "Domestic Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000401651,
+        "paymentType": {
+          "id": "DOMESTIC_PAYMENT",
+          "label": "Domestic Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Avram Rainsden",
+        "beneficiaryAccount": "CH7581323000002217390",
+        "isIban": true,
+        "amount": 4.28,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "YyWZFCAzWr",
+        "debitReference": "HaKkuMjZzAKxJBGsHkzS",
+        "inWork": false,
+        "paymentReason": "Sports",
+        "executionDate": "2020-03-23",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "APPROVED",
+          "label": "Approved"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH75 8132 3000 0022 1739 0",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3449003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000465828,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Iosep Galer",
+        "beneficiaryAccount": "CH3288880100100842001",
+        "isIban": true,
+        "amount": 4.59,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "TgHacEOsob",
+        "debitReference": "Internal transfer",
+        "inWork": false,
+        "paymentReason": "Books",
+        "executionDate": "2020-03-20",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "PROCESSED",
+          "label": "Processed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          },
+          {
+            "id": "EXTERNAL_ADVICE",
+            "label": "External advice"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH32 8888 0100 1008 4200 1",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3448003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNAL_PAYMENT",
+            "label": "Account Transfer"
+          }
+        },
+        "paymentExternalOrderId": 100000465388,
+        "paymentType": {
+          "id": "INTERNAL_PAYMENT",
+          "label": "Account Transfer"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Gilbertine Mullaly",
+        "beneficiaryAccount": "CH0588880100100842002",
+        "isIban": true,
+        "amount": 4.3,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "TgHacEOsob",
+        "debitReference": "Internal transfer",
+        "inWork": false,
+        "paymentReason": "Grocery",
+        "executionDate": "2020-03-20",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "PROCESSED",
+          "label": "Processed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          },
+          {
+            "id": "EXTERNAL_ADVICE",
+            "label": "External advice"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "CH05 8888 0100 1008 4200 2",
+        "creditMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 3333003,
+          "orderVersionId": 0,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "SEPA_PAYMENT",
+            "label": "SEPA Payment"
+          }
+        },
+        "paymentType": {
+          "id": "SEPA_PAYMENT",
+          "label": "SEPA Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Gerry Grasha",
+        "beneficiaryAccount": "DE44500700100092685700",
+        "isIban": true,
+        "amount": 5.0,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "inWork": false,
+        "executionDate": "2020-03-20",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "DRAFT",
+          "label": "Draft"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "UPDATE",
+            "label": "Update"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "DELETE",
+            "label": "Delete"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "PAYMENT_GROUP",
+          "label": "Payment Group"
+        },
+        "paymentGroupId": 3043003,
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "DE44 5007 0010 0092 6857 00",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2674003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNATIONAL_PAYMENT",
+            "label": "International Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000405553,
+        "paymentType": {
+          "id": "INTERNATIONAL_PAYMENT",
+          "label": "International Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Alison Mecozzi",
+        "beneficiaryAccount": "0270-45875.M1Q",
+        "isIban": false,
+        "amount": 6.84,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "aquGsgNEHU",
+        "debitReference": "UCQMkMmZciAOqsSNsrgF",
+        "inWork": false,
+        "paymentReason": "Computers",
+        "executionDate": "2020-03-20",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "PROCESSED",
+          "label": "Processed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          },
+          {
+            "id": "EXTERNAL_ADVICE",
+            "label": "External advice"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "0270-45875.M1Q",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2673003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNATIONAL_PAYMENT",
+            "label": "International Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000404824,
+        "paymentType": {
+          "id": "INTERNATIONAL_PAYMENT",
+          "label": "International Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Reggy Naseby",
+        "beneficiaryAccount": "0270-45875.M1Q",
+        "isIban": false,
+        "amount": 1.71,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "mdKAXNzUFl",
+        "debitReference": "XjNiqxXwpBdJorxtWiJd",
+        "inWork": false,
+        "paymentReason": "Music",
+        "executionDate": "2020-03-20",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "PROCESSED",
+          "label": "Processed"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          },
+          {
+            "id": "EXTERNAL_ADVICE",
+            "label": "External advice"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "0270-45875.M1Q",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2571003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNATIONAL_PAYMENT",
+            "label": "International Payment"
+          }
+        },
+        "paymentExternalOrderId": 100000404603,
+        "paymentType": {
+          "id": "INTERNATIONAL_PAYMENT",
+          "label": "International Payment"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Orlan O Sullivan",
+        "beneficiaryAccount": "NL37ABNA0618139087",
+        "isIban": true,
+        "amount": 9.94,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "RvktQERAtc",
+        "debitReference": "ENiFdODOeQiOzbtGoXLx",
+        "inWork": true,
+        "paymentReason": "Sports",
+        "executionDate": "2020-03-20",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In-Work"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "NL37 ABNA 0618 1390 87",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2571003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNATIONAL_PAYMENT_INSTRUCTION",
+            "label": "International Payment Instruction"
+          }
+        },
+        "paymentExternalOrderId": 100000404603,
+        "paymentType": {
+          "id": "INTERNATIONAL_PAYMENT_INSTRUCTION",
+          "label": "International Payment Instruction"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Michaella Sunderland",
+        "beneficiaryAccount": "NL37ABNA0618139087",
+        "isIban": true,
+        "amount": 2.83,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "oLLaHkJFty",
+        "debitReference": "ugKZeoKKyoJpVuVgeqYU",
+        "inWork": true,
+        "paymentReason": "Kids",
+        "executionDate": "2020-03-20",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In-Work"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "NL37 ABNA 0618 1390 87",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      },
+      {
+        "_type": "PaymentListItemPTO",
+        "_shape": "standard",
+        "id": {
+          "orderId": 2457003,
+          "orderVersionId": 3,
+          "standingOrder": false,
+          "paymentType": {
+            "id": "INTERNATIONAL_PAYMENT_INSTRUCTION",
+            "label": "International Payment Instruction"
+          }
+        },
+        "paymentExternalOrderId": 100000403839,
+        "paymentType": {
+          "id": "INTERNATIONAL_PAYMENT_INSTRUCTION",
+          "label": "International Payment Instruction"
+        },
+        "debitMoneyAccountIsMixed": false,
+        "creditMoneyAccountIsMixed": false,
+        "beneficiary": "Davey Keable",
+        "beneficiaryAccount": "NL37ABNA0618139087",
+        "isIban": true,
+        "amount": 4.43,
+        "currencyIsMixed": false,
+        "numberOfMissingXrate": 0,
+        "paymentReasonOrEsrReference": "hoCrlOoQmF",
+        "debitReference": "hxvklVCcbIzDAAdIgahd",
+        "inWork": true,
+        "paymentReason": "Shoes",
+        "executionDate": "2020-03-20",
+        "executionDateIsMixed": false,
+        "state": {
+          "id": "IN_WORK",
+          "label": "In-Work"
+        },
+        "actions": [
+          {
+            "id": "VIEW",
+            "label": "View"
+          },
+          {
+            "id": "SAVE_AS_TEMPLATE",
+            "label": "Save as template"
+          },
+          {
+            "id": "COPY",
+            "label": "Copy"
+          },
+          {
+            "id": "EXPORT",
+            "label": "Export"
+          }
+        ],
+        "paymentSource": {
+          "id": "SINGLE_PAYMENT",
+          "label": "Single Payment"
+        },
+        "advices": [],
+        "combinableOrder": false,
+        "creationDate": "2020-03-20",
+        "withActionRequest": false,
+        "beneficiaryAccountOrPcAccount": "NL37 ABNA 0618 1390 87",
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        },
+        "debitMoneyAccount": {
+          "_type": "MoneyAccountPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        },
+        "debitMoneyAccountPortfolio": {
+          "_type": "PortfolioPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      }
+    ],
+    "totalAmount": {
+      "_type": "TotalAmountPTO",
+      "_shape": "standard",
+      "amount": 395.9222796533997493400000,
+      "numberOfRecords": 60,
+      "currency": {
+        "_type": "CurrencyPTO",
+        "_shape": "reference",
+        "_dependencyId": "1",
+        "jsonEntityId": "1"
+      }
+    },
+    "totalAmountPerCurrency": [
+      {
+        "_type": "TotalAmountPTO",
+        "_shape": "standard",
+        "amount": 125.33,
+        "numberOfRecords": 14,
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "2",
+          "jsonEntityId": "2"
+        }
+      },
+      {
+        "_type": "TotalAmountPTO",
+        "_shape": "standard",
+        "amount": 261.75,
+        "numberOfRecords": 46,
+        "currency": {
+          "_type": "CurrencyPTO",
+          "_shape": "reference",
+          "_dependencyId": "1",
+          "jsonEntityId": "1"
+        }
+      }
+    ],
+    "referenceCurrency": {
+      "_type": "CurrencyPTO",
+      "_shape": "reference",
+      "_dependencyId": "1",
+      "jsonEntityId": "1"
+    }
+  },
+  "dependencies": {
+    "CurrencyPTO": {
+      "1": {
+        "_type": "CurrencyPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "1",
+        "id": 3942002,
+        "countryId": 2089002,
+        "isoCode": "CHF",
+        "name": "Swiss Franc",
+        "tradeUnit": 0.01,
+        "decimals": 2
+      },
+      "2": {
+        "_type": "CurrencyPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "2",
+        "id": 2549002,
+        "countryId": 2103002,
+        "isoCode": "EUR",
+        "name": "Euro",
+        "tradeUnit": 0.01,
+        "decimals": 2
+      }
+    },
+    "MoneyAccountPTO": {
+      "1": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "1",
+        "id": 189851002,
+        "iban": "CH3288880100100842001",
+        "name": "pos_LET.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2001",
+        "balance": 9528884.45,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433163002,
+        "availableAmount": 9532186.53,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      "2": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "2",
+        "id": 189853002,
+        "iban": "CH0588880100100842002",
+        "name": "pos_LET.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2002",
+        "balance": 4190893.16,
+        "currencyId": 2549002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189849002,
+        "assetId": 433154002,
+        "availableAmount": 4190893.16,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      "3": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "3",
+        "id": 189867002,
+        "iban": "CH2888880100100922001",
+        "name": "pos_LEA.01 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010092.2001",
+        "balance": -5600.4,
+        "currencyId": 3942002,
+        "businessPartnerId": 189864002,
+        "businessPartner": "Anna Lehman",
+        "portfolioId": 189865002,
+        "assetId": 433163002,
+        "availableAmount": 0.0,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      "4": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "4",
+        "id": 189869002,
+        "iban": "CH9888880100100922002",
+        "name": "pos_LEA.01 2",
+        "isUserDefinedName": false,
+        "accountNumber": "10010092.2002",
+        "balance": 1671555.61,
+        "currencyId": 2549002,
+        "businessPartnerId": 189864002,
+        "businessPartner": "Anna Lehman",
+        "portfolioId": 189865002,
+        "assetId": 433154002,
+        "availableAmount": 1671555.61,
+        "moneyAccountOrigin": "INTERNAL"
+      },
+      "5": {
+        "_type": "MoneyAccountPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "5",
+        "id": 189854002,
+        "iban": "CH7588880100100842003",
+        "name": "pos_LET.02 1",
+        "isUserDefinedName": false,
+        "accountNumber": "10010084.2003",
+        "balance": 92714.52,
+        "currencyId": 3942002,
+        "businessPartnerId": 189848002,
+        "businessPartner": "Thomas Lehman",
+        "portfolioId": 189850002,
+        "assetId": 433163002,
+        "availableAmount": 92807.69,
+        "moneyAccountOrigin": "INTERNAL"
+      }
+    },
+    "PortfolioPTO": {
+      "1": {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "1",
+        "id": 189849002,
+        "name": "Thomas Lehman 01",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189848002,
+        "businessPartnerName": "Thomas Lehman",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13"
+      },
+      "2": {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "2",
+        "id": 189865002,
+        "name": "Anna Lehman 01",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189864002,
+        "businessPartnerName": "Anna Lehman",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13"
+      },
+      "3": {
+        "_type": "PortfolioPTO",
+        "_shape": "standard",
+        "jsonDependencyId": "3",
+        "id": 189850002,
+        "name": "Thomas Lehman 02",
+        "isUserDefinedName": false,
+        "businessPartnerId": 189848002,
+        "businessPartnerName": "Thomas Lehman",
+        "referenceCurrencyId": 3942002,
+        "hasTradingRights": true,
+        "calculatePerformanceFrom": "2010-12-13"
+      }
+    }
+  },
+  "notifications": [],
+  "snapshotId": 9674891745317,
+  "hasMoreResults": false
+}
+
+

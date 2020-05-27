@@ -1,0 +1,14 @@
+{
+  "/com.avaloq.afpaas.master.rest.services": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/com.avaloq.afs.rest.services": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/AWS": {
+    "target": "http://localhost:3000",
+    "secure": false
+  }
+}

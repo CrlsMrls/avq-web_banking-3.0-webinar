@@ -1,0 +1,33 @@
+// Import theming utilities
+@import '~@avaloq/ui-elements/theming.import';
+
+// Load palette
+@import 'app-palette';
+// @import 'app-palette-red';
+
+// Load Material grid
+@import '~@material/layout-grid/mdc-layout-grid.import';
+
+// Include basic styles
+@include avq-core();
+
+// Pass the config to avq-light-theme
+$app-theme: avq-light-theme($app-theme-config);
+
+// Include avq-material-theme mixin
+@include avq-material-theme($app-theme);
+
+// Include banklet themes //
+@import '~@avaloq/web-banking-payment-highlights-list/theming';
+@include dashboard-payment-list-theme($app-theme);
+
+@import '~@avaloq/web-banking-payment-core/theming';
+@include payment-core-theme($app-theme);
+
+@import '~@avaloq/web-banking-payment-overviews-banklet/theming';
+@include payment-overview-banklet-theme($app-theme);
+
+
+// Apply theme for all components inside the application
+@import './app/app.component.scss';
+@include app-component-mixin($app-theme);
