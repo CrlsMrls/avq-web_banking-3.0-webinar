@@ -11,9 +11,10 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 
 import {DashboardPaymentListModule} from '@avaloq/web-banking-payment-highlights-list';
 import { AppRoutingModule } from './app-routing.module';
+import { LocaleSelectorComponent } from './locale-selector/locale-selector.component';
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent],
+  declarations: [AppComponent, DashboardComponent, LocaleSelectorComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

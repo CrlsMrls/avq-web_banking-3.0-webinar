@@ -14,12 +14,19 @@ import {AvqMaterialIntlModule} from '@avaloq/ui-elements';
 
 import {environment} from '../environments/environment';
 
+import { WEB_LOCALE } from './locale-selector/locale-selector.component';
+
 // i18n
-import angularLocaleEnGB from '@angular/common/locales/en-GB';
 export function avqI18nInitializer(i18nService: AvqI18nService, httpClient: HttpClient) {
   const initAsync = async () => {
-    const translations: any = await httpClient.get(`/assets/i18n/en-GB.json`).toPromise();
-    return i18nService.initialize('en-GB', angularLocaleEnGB, translations);
+    const localeId = localStorage.getItem(WEB_LOCALE) || 'en-GB';
+    // use the corresponding angular locale
+    const angularLocale = await import(
+      /* webpackInclude: /(en-GB|de-CH)\.js$/ */
+      `@angular/common/locales/${localeId}.js`);
+    // fetch the translations
+    const translations: any = await httpClient.get(`/assets/i18n/${localeId}.json`).toPromise();
+    return i18nService.initialize(localeId, angularLocale.default, translations);
   };
 
   return initAsync;
