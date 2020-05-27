@@ -12,13 +12,17 @@ export class DashboardComponent {
   paymentListStateRecentlyUsed = [PaymentState.APPROVED, PaymentState.PROCESSED];
   paymentListStateUpcoming = [PaymentState.IN_WORK];
 
-  constructor() {}
+  constructor(private router: Router) {}
+
+  onShowPayment(payment: PaymentInList) {
+    this.router.navigate(['payments/detail'], {
+      state: {
+        paymentIdRepresentation: payment.id,
+      },
+    });
+  }
 
   onShowAllPayments($event: PaymentState[]) {
     console.log('show all payments');
-  }
-
-  onShowPayment(payment: PaymentInList) {
-    console.log('show one payment');
   }
 }

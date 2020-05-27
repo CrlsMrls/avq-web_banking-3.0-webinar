@@ -10,6 +10,7 @@ import {MaterialModule} from './material.module';
 import {DashboardComponent} from './dashboard/dashboard.component';
 
 import {DashboardPaymentListModule} from '@avaloq/web-banking-payment-highlights-list';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent, DashboardComponent],
@@ -24,6 +25,8 @@ import {DashboardPaymentListModule} from '@avaloq/web-banking-payment-highlights
 
     // banklet modules
     DashboardPaymentListModule,
+
+    AppRoutingModule,
   ],
   bootstrap: [AppComponent],
 })
