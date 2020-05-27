@@ -7,9 +7,12 @@ import {AppComponent} from './app.component';
 
 import {AvaloqModule} from './avaloq.module';
 import {MaterialModule} from './material.module';
+import {DashboardComponent} from './dashboard/dashboard.component';
+
+import {DashboardPaymentListModule} from '@avaloq/web-banking-payment-highlights-list';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DashboardComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -20,6 +23,7 @@ import {MaterialModule} from './material.module';
     AvaloqModule,
 
     // banklet modules
+    DashboardPaymentListModule,
   ],
   bootstrap: [AppComponent],
 })
