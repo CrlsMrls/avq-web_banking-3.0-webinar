@@ -8,6 +8,7 @@ import {filter, map} from 'rxjs/operators';
 })
 export class AppComponent {
 
+  /*
   constructor(router: Router) {
     // Workaround for angular router not sending extras.state on back navigation.
     // See https://github.com/angular/angular/issues/28108
@@ -24,5 +25,6 @@ export class AppComponent {
         };
       });
   }
+  */
   
 }
