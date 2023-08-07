@@ -1,5 +1,10 @@
 # Avaloq Angular Workshop
 
+## Archived
+This repository was useful some years ago to validate the new web banking architecture with some Avaloq's clients. Since then, there is plenty of documentation at [https://docs.avaloq.com](https://docs.avaloq.com). 
+
+As this content became outdated, it is a read-only archived project. 
+
 ## Summary
 In this workshop we introduce the Angular based solution from Avaloq by developing a web application that showcases configurable pre-built Banklets, internationalization, and theming capabilities.
 
